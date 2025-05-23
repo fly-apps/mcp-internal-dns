@@ -7,7 +7,7 @@ import { resolveTxt, resolve6 } from "node:dns";
 
 const server = new McpServer({
   name: "Fly.io private network",
-  version: "1.0.0"
+  version: "0.0.1"
 });
 
 // Extract AAAA records from the DNS and return them as a list of text records
