@@ -1,0 +1,26 @@
+ {
+  "name": "@flydotio/mcp-internal-dns",
+  "version": "0.0.1",
+  "description": "MCP Server for querying Fly.io internal DNS records",
+  "main": "./index.js",
+  "license": "MIT",
+  "author": "Fly.io, Inc.",
+  "homepage": "https://github.com/fly-apps/mcp-internal-dns",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.10",
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "type": "module",
+  "files": [
+    "README.md",
+    "index.js"
+  ]
+}
