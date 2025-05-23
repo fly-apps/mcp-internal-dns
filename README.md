@@ -1,6 +1,6 @@
 ## Overview
 
-MCP Server that provides informtion about [Fly.io `.internal` DNS](https://fly.io/docs/networking/private-networking/#fly-io-internal-dns) for an organization.
+MCP Server that provides information about [Fly.io `.internal` DNS](https://fly.io/docs/networking/private-networking/#fly-io-internal-dns) for an organization.
 
 ## Usage
 

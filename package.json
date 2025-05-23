@@ -1,8 +1,11 @@
  {
   "name": "@flydotio/mcp-internal-dns",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MCP Server for querying Fly.io internal DNS records",
   "main": "./index.js",
+  "bin": {
+    "@flydotio/mcp-internal-dns": "./index.js"
+  },
   "license": "MIT",
   "author": "Fly.io, Inc.",
   "homepage": "https://github.com/fly-apps/mcp-internal-dns",
