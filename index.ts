@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // https://fly.io/docs/networking/private-networking/
 
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
@@ -7,7 +9,7 @@ import { resolveTxt, resolve6 } from "node:dns";
 
 const server = new McpServer({
   name: "Fly.io private network",
-  version: "0.0.2"
+  version: "0.0.3"
 });
 
 // Extract AAAA records from the DNS and return them as a list of text records
